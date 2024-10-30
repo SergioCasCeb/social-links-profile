@@ -37,17 +37,18 @@
             .name {
                 font-size: var(--fs-lg);
                 margin-bottom: var(--sp-xsm);
+                font-weight: var(--fw-bold);
             }
 
             .location {
                 color: var(--clr-primary);
                 font-size: var(--fs-sm);
+                font-weight: var(--fw-semi-bold);
             }
         }
 
         .profile-quote {
             font-size: var(--fs-sm);
-            font-weight: var(--fw-light);
         }
     }
 
@@ -66,7 +67,7 @@
             a {
                 background-color: var(--clr-neutral-700);
                 border-radius: 5px;
-                display: block;
+                font-weight: var(--fw-semi-bold);
                 padding: var(--sp-sm);
                 display: flex;
                 flex-direction: row;

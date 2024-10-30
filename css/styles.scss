@@ -82,11 +82,9 @@ figcaption {
     --fs-sm: 0.875rem; //14px
     --fs-xsm: 0.75rem; //12px
 
-    --fw-light: 300;
     --fw-regular: 400;
-    --fw-medium: 500;
+    --fw-semi-bold: 600;
     --fw-bold: 700;
-    --fw-extra-bold: 800;
 
     --lh-title: 1.2;
     --lh-body: 1.5;
@@ -108,7 +106,7 @@ body {
     font-size: var(--fs-m);
     line-height: var(--lh-body);
     color: var(--clr-neutral-50);
-    font-weight: var(--fw-medium);
+    font-weight: var(--fw-regular);
     display: flex;
     flex-direction: column;
     align-items: center;

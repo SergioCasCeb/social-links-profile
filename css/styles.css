@@ -72,11 +72,9 @@ figcaption {
   --fs-md: 1rem;
   --fs-sm: 0.875rem;
   --fs-xsm: 0.75rem;
-  --fw-light: 300;
   --fw-regular: 400;
-  --fw-medium: 500;
+  --fw-semi-bold: 600;
   --fw-bold: 700;
-  --fw-extra-bold: 800;
   --lh-title: 1.2;
   --lh-body: 1.5;
   --sp-xlg: clamp(1.5rem, 1.1466165413533835rem + 1.5037593984962405vw, 2.5rem);
@@ -95,7 +93,7 @@ body {
   font-size: var(--fs-m);
   line-height: var(--lh-body);
   color: var(--clr-neutral-50);
-  font-weight: var(--fw-medium);
+  font-weight: var(--fw-regular);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -178,14 +176,15 @@ footer a {
 .social-links-card__profile .profile-info .name {
   font-size: var(--fs-lg);
   margin-bottom: var(--sp-xsm);
+  font-weight: var(--fw-bold);
 }
 .social-links-card__profile .profile-info .location {
   color: var(--clr-primary);
   font-size: var(--fs-sm);
+  font-weight: var(--fw-semi-bold);
 }
 .social-links-card__profile .profile-quote {
   font-size: var(--fs-sm);
-  font-weight: var(--fw-light);
 }
 .social-links-card__links {
   width: 100%;
@@ -202,7 +201,7 @@ footer a {
 .social-links-card__links li a {
   background-color: var(--clr-neutral-700);
   border-radius: 5px;
-  display: block;
+  font-weight: var(--fw-semi-bold);
   padding: var(--sp-sm);
   display: flex;
   flex-direction: row;
