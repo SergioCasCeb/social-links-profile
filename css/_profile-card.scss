@@ -1,0 +1,85 @@
+.social-links-card {
+    background-color: var(--clr-neutral-800);
+    border-radius: 10px;
+    padding: var(--sp-xlg);
+    width: 100%;
+    max-width: 26rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: var(--sp-lg);
+    box-shadow: #0f0f0f 0px 4px 20px;
+
+    &__profile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: var(--sp-lg);
+        text-align: center;
+
+        .profile-img {
+            width: 5.625rem;
+            height: 5.625rem;
+            border-radius: 50%;
+            overflow: hidden;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+
+        .profile-info {
+
+            .name {
+                font-size: var(--fs-lg);
+                margin-bottom: var(--sp-xsm);
+            }
+
+            .location {
+                color: var(--clr-primary);
+                font-size: var(--fs-sm);
+            }
+        }
+
+        .profile-quote {
+            font-size: var(--fs-sm);
+            font-weight: var(--fw-light);
+        }
+    }
+
+    &__links {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: var(--sp-m);
+
+        li {
+            width: 100%;
+            text-align: center;
+
+            a {
+                background-color: var(--clr-neutral-700);
+                border-radius: 5px;
+                display: block;
+                padding: var(--sp-sm);
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                gap: var(--sp-sm);
+                transition: all 200ms ease-in-out;
+
+                &:hover, &:focus {
+                    background-color: var(--clr-primary);
+                    color: var(--clr-neutral-800);
+                }
+            }
+        }
+    }
+}
