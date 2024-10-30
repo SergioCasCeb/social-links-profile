@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor Solution](https://your-solution-url.com)
+- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/responsive-social-media-sharing-component-with-scss-I-xhUbZNj7)
 - Live Site URL: [Netlify](https://fm-social-links-challenge-sergio.netlify.app/)
 
 ## My process
