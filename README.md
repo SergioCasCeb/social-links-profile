@@ -51,8 +51,8 @@ Users should be able to:
 ### Useful resources
 
 - [Fluid Typography Calculator](https://royalfig.github.io/fluid-typography-calculator/) - This website is always a great help when creating your fluid typography.
-- [Pretty shadows](https://getcssscan.com/css-box-shadow-examples)
-- [Icons](https://fontawesome.com/)
+- [Pretty shadows](https://getcssscan.com/css-box-shadow-examples) - Good website to use for box shadow styling ideas
+- [Icons](https://fontawesome.com/) - Amazing website for icons
 
 ## Author
 
